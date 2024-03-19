@@ -29,4 +29,5 @@ Things you may want to cover:
   - litesearch
   - litemetric
 
-* ...
+Note: To enable caching in development, you have to run:
+> bin/rails dev:cache
