@@ -1,19 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Turbo 8 morphing refreshes on Rails
+
+Turbo 8 morphing with support for morphing page refreshes and scroll position preservation, powered by idiomorph and the ability to broadcast page refreshes with a new Turbo Stream action.
+https://www.colby.so/posts/turbo-8-morphing-refreshes-on-rails
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version:\
+  Ruby 3.3.0
 
-* System dependencies
+* Rails version:\
+  Rails >= 7.1.3.2
 
-* Configuration
+* System dependencies:\
+  Bundler (I used version 2.5.x)
 
-* Database creation
-
-* Database initialization
+* Database creation:\
+  Run `bin/rails db:create`\
+  Run `bin/rails db:migrate`
 
 * How to run the test suite
 
