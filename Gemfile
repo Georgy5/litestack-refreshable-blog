@@ -22,8 +22,11 @@ gem "tailwindcss-rails"
 # Drivers
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
+# Use Litestack as all-in-one solution for caching and job queuing
+gem "litestack", "~> 0.4.3"
+
 # Use Redis adapter to run Action Cable in production
-gem "redis", ">= 4.0.1"
+# gem "redis", ">= 4.0.1"
 
 # Hotwire
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]

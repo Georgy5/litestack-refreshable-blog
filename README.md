@@ -20,10 +20,13 @@ Things you may want to cover:
   Run `bin/rails db:create`\
   Run `bin/rails db:migrate`
 
-* How to run the test suite
-
 * Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+  LiteStack offers
+  - litedb
+  - litecache
+  - litejob
+  - litecable
+  - litesearch
+  - litemetric
 
 * ...
